@@ -1,6 +1,21 @@
 # Hotel-Revenue-Analysis
 A project to develop a SQL database and to analyze and visualize hotel booking data using Power BI
 
+# Table of Content
+- [Project Overview](#project-overview)
+- [Data sources](#data-sources)
+- [Tools](#tools)
+- [Initial Questions](#initial-questions)
+- [Data analysis project pipeline](#data-analysis-project-pipeline)
+- [Building a database](#building-a-database)
+- [Developing the SQL Query](#developing-the-sql-query)
+- [Connecting the Power BI to the database](#connecting-the-power-bi-to-the-database)
+- [Visualizations](#visualizations)
+- [Summary of the findings](#summary-of-the-findings)
+- [Recommendations](#recommendations)
+- [References](#references)
+
+
 ## Project Overview
 
 The purpose of this data analysis project is to offer insights on hotel revenue during the previous years. We aim to detect patterns, obtain a more profound comprehension of the hotel's financial performance, and formulate evidence-based suggestions by scrutinizing many facets of the hotel data.
@@ -158,4 +173,36 @@ from hotels
 group by arrival_date_year,hotel
 ```
 ## Connecting the Power BI to the database
+
+<img width="949" alt="CONNECTING TO DATABASE" src="https://github.com/KEFFAS/Hotel-Revenue-Analysis/assets/89402452/83a9b96f-02ed-46a1-a908-41f90638cfc0">
+
+## Visualizations
+
+<img width="509" alt="both hotels revenue" src="https://github.com/KEFFAS/Hotel-Revenue-Analysis/assets/89402452/b611d23d-592c-4cf2-a0ff-acd293e41f2a">
+
+
+<img width="509" alt="Resort hotel revenue" src="https://github.com/KEFFAS/Hotel-Revenue-Analysis/assets/89402452/62c4a6db-4a2e-431d-8d6a-4ce7f8ae54dd">
+
+<img width="506" alt="City hotel revenue" src="https://github.com/KEFFAS/Hotel-Revenue-Analysis/assets/89402452/65aba7d2-cab0-4017-b2f6-1a742b1cb6b1">
+
+<img width="509" alt="Revenue by Researvation status date" src="https://github.com/KEFFAS/Hotel-Revenue-Analysis/assets/89402452/90081c3c-a18e-43c2-8bbd-574e149d1608">
+
+<img width="757" alt="car parking trends" src="https://github.com/KEFFAS/Hotel-Revenue-Analysis/assets/89402452/81ff20a9-1e52-4f73-8dc5-685cb663d882">
+
+## Summary of the findings
+
+1. By observing the trend line, it is clear that the hotel revenue is growing by year
+2. The data shows that there is no much need to increase the parking lot size as the parking percentage ranges between 2 to 2.5%
+3. The city hotel revenue is growing at a higher rate that the resort hotel revenue
+
+## Recommendations
+
+1. Offer promotions and discounts to attract new customers
+2. Implement dynamic pricing to adjust room rates based on demand.
+3. Offer additional services such as spa treatments, room upgrades, or special packages
+
+## References
+ [Kaggle] (https://www.kaggle.com/learn/intro-to-sql)
+
+ 
 
