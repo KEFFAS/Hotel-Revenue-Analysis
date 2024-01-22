@@ -25,3 +25,23 @@ The main dataset included in this analysis is the "hotel_revenue_historical.xlsx
 4.	Visualize
 5.	Summarize findings
 
+## Building a database
+
+## Developing the SQL Query
+
+```SQL
+with hotels as (
+select * from [dbo].['2018$'] 
+union
+select * from [dbo].['2019$']
+union
+select * from [dbo].['2020$'])
+
+select
+arrival_date_year,
+hotel,
+round (sum((stays_in_week_nights + stays_in_weekend_nights)* adr),2) as revenue 
+from hotels
+group by arrival_date_year,hotel
+```
+## Connecting the Power BI to the database
