@@ -11,4 +11,17 @@ The main dataset included in this analysis is the "hotel_revenue_historical.xlsx
 
 ## Tools
 
-- SQL Server[Download here](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- SQL Server [Download here](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+- Excel [Download here](https://www.microsoft.com/en/microsoft-365/excel)
+- Power BI [Download here](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+## Initial Questions
+1. Is our hotel revenue growing by year?
+2. Should we increase our parking lot size?
+3. What trends can we see in the data?
+## Data analysis project pipeline
+1.	Build a database
+2.	Develop the SQL Query
+3.	Connect the Power BI to the database
+4.	Visualize
+5.	Summarize findings
+
